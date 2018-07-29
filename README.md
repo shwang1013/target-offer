@@ -163,7 +163,7 @@ def gen_maze_graph(maze_size,lists):
         I just upload assignment result by pic to GitHub to see the results.<br>
         There is absolutely no code.        
 >View the results through a link:<br>
->https://github.com/shwang1013/target-offer/blob/master/TW_AssignmentResult.png
+>https://github.com/shwang1013/target-offer/blob/master/Assignment.png
                 
 
 ### Verifying code
