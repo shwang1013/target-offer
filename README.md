@@ -55,7 +55,8 @@ def input_the_maze_parma():
 ```
 #### linkInfo: 
 Here you need to input m*n*4 numbers to represent the linked information of the maze.
->Please note that: Each input must be an inerger and greater than 0. If not, the program will raise a Error.<br>
+>Please note that: Each input must be an inerger and greater than 0. 
+>If not, the program will raise a Error.<br>
 >Example: 0 1 0 2 0 0 1 0 0 1 1 1 0 2 1 2 1 0 1 1 1 1 1 2 1 1 2 1 1 2 2 2 2 0 2 1
 ```python
 def input_linkInfo(input_size):
@@ -159,12 +160,12 @@ def gen_maze_graph(maze_size,lists):
         (Ps: Read the input instructions carefully otherwise raise a Error.
 ### Running result
 *Statement: 
->I just upload assignment result by pic to GitHub to see the results.
->There is absolutely no code.
-View the results through a link：<br>
-https://github.com/shwang1013/target-offer/blob/master/TW_AssignmentResult.png
+I just upload assignment result by pic to GitHub to see the results.<br>
+There is absolutely no code.
+>View the results through a link
+>https://github.com/shwang1013/target-offer/blob/master/TW_AssignmentResult.png
         
 
 ### Verifying code
-All of the input and generate functions were packed. The graph will be generate by<br>
+All of the input and generate functions were packed. The graph will be generate by:
 >python TW_Assignment_WSH.py
