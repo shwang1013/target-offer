@@ -1,8 +1,8 @@
 
 # Render the maze as a string
 ## Introduction
-        Generate a maz's by compute is a wonderful game. We can present the maze's road by Road Grid. Thus, the input of 3*3 size of maze  
-        will get a 7*7 output Render Grid.
+Generate a maz's by compute is a wonderful game. We can present the maze's road by Road Grid. 
+Thus, the input of 3*3 size of maze will get a 7*7 output Render Grid.
         
 ### Requirements
 * python3
@@ -10,8 +10,8 @@
         
 ### Input Preparation
 #### maze_size: 
-        Here you need to input two interger numbers: m n.
->m is rows of the maze and n is the cols of the maze.<br>
+Here you need to input two interger numbers: m n.
+>Please note: m is rows of the maze and n is the cols of the maze.<br>
 >Please note that: m and n must be inerger and greater than 0. If not, the program will raise a Error.<br>
 >Example: 3 3
 ```python
@@ -54,7 +54,7 @@ def input_the_maze_parma():
     return input_size
 ```
 #### linkInfo: 
-        Here you need to input m*n*4 numbers to represent the linked information of the maze.
+Here you need to input m*n*4 numbers to represent the linked information of the maze.
 >Please note that: Each input must be an inerger and greater than 0. If not, the program will raise a Error.<br>
 >Example: 0 1 0 2 0 0 1 0 0 1 1 1 0 2 1 2 1 0 1 1 1 1 1 2 1 1 2 1 1 2 2 2 2 0 2 1
 ```python
@@ -90,15 +90,14 @@ def input_linkInfo(input_size):
         for element in lists:         
             if((not isinstance(element,int) or element < 0)):                                                              
                  raise ValueError("Number out of range") 
-        # Only meet the requriment: (each element >0) and (interger) and (numbers of them == rows * cols * 4), we can break to go ahead.
+        # (Each element >0) and (interger) and (numbers of them == rows * cols * 4)we can break to go ahead.
         else:
             break 
     lists = ([lists[i:i + 9] for i in range(0, len(lists), 4)])     
     return lists
 ```
 ### Generate the maze's graph
-```python
-                    
+```python                    
 def gen_maze(linkInfo):
     '''
     Generate a maze. 
@@ -158,9 +157,11 @@ def gen_maze_graph(maze_size,lists):
         3 3
         0 1 0 2 0 0 1 0 0 1 1 1 0 2 1 2 1 0 1 1 1 1 1 2 1 1 2 1 1 2 2 2 2 0 2 1
 ### Running result
-        
+*Statement: 
+In order to see the results conveniently, I just upload pictures to GitHub to create links. There is absolutely no code.
+        https://github.com/shwang1013/target-offer/blob/master/TW_AssigmentResult.png
 
 ### Verifying code
 All of the input and generate functions were packed. The graph will be generate by:   
-        python TW_Assignment_WSH.py
+python TW_Assignment_WSH.py
         
