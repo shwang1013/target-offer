@@ -2,7 +2,7 @@
 # Render the maze as a string
 ## Introduction
 Generate a maz's by compute is a wonderful game. We can present the maze's road by Road Grid. 
-Thus, the input of 3*3 size of maze will get a 7*7 output Render Grid.
+Thus, the input of 3,3 size of maze will get a 7,7 output Render Grid.
         
 ### Requirements
 * python3
@@ -96,6 +96,11 @@ def input_linkInfo(input_size):
     lists = ([lists[i:i + 9] for i in range(0, len(lists), 4)])     
     return lists
 ```
+
+### Verifying code
+All of the input and generate functions were packed. The graph will be generate by
+python TW_Assignment_WSH.py
+
 ### Generate the maze's graph
 ```python                    
 def gen_maze(linkInfo):
@@ -156,12 +161,10 @@ def gen_maze_graph(maze_size,lists):
 ### Testing Sample
         3 3
         0 1 0 2 0 0 1 0 0 1 1 1 0 2 1 2 1 0 1 1 1 1 1 2 1 1 2 1 1 2 2 2 2 0 2 1
+        (Ps: Read the input instructions carefully otherwise raise a Error.
 ### Running result
 *Statement: 
-In order to see the results conveniently, I just upload pictures to GitHub to create links. There is absolutely no code.
-        https://github.com/shwang1013/target-offer/blob/master/TW_AssigmentResult.png
-
-### Verifying code
-All of the input and generate functions were packed. The graph will be generate by:   
-python TW_Assignment_WSH.py
+>I just upload assignment result by pic to GitHub to see the results.
+>There is absolutely no code.
+        https://github.com/shwang1013/target-offer/blob/master/TW_AssignmentResult.png
         
