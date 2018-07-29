@@ -157,15 +157,15 @@ def gen_maze_graph(maze_size,lists):
 ### Testing Sample
         3 3
         0 1 0 2 0 0 1 0 0 1 1 1 0 2 1 2 1 0 1 1 1 1 1 2 1 1 2 1 1 2 2 2 2 0 2 1
-        (Ps: Read the input instructions carefully otherwise raise a Error.
+>(Ps: Read the input instructions carefully otherwise raise a Error.
 ### Running result
-*Statement: 
+        Statement:
         I just upload assignment result by pic to GitHub to see the results.<br>
         There is absolutely no code.
->View the results through a link
+>View the results through a link:<br>
 >https://github.com/shwang1013/target-offer/blob/master/TW_AssignmentResult.png
         
 
 ### Verifying code
         All of the input and generate functions were packed. The graph will be generate by:
->python TW_Assignment_WSH.py
+        python TW_Assignment_WSH.py
