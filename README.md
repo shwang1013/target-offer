@@ -161,10 +161,10 @@ def gen_maze_graph(maze_size,lists):
 ### Running result
         Statement:
         I just upload assignment result by pic to GitHub to see the results.<br>
-        There is absolutely no code.
+        There is absolutely no code.        
 >View the results through a link:<br>
 >https://github.com/shwang1013/target-offer/blob/master/TW_AssignmentResult.png
-        
+                
 
 ### Verifying code
         All of the input and generate functions were packed. The graph will be generate by:
