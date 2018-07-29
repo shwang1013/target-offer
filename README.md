@@ -96,11 +96,6 @@ def input_linkInfo(input_size):
     lists = ([lists[i:i + 9] for i in range(0, len(lists), 4)])     
     return lists
 ```
-
-### Verifying code
-All of the input and generate functions were packed. The graph will be generate by
-python TW_Assignment_WSH.py
-
 ### Generate the maze's graph
 ```python                    
 def gen_maze(linkInfo):
@@ -166,5 +161,10 @@ def gen_maze_graph(maze_size,lists):
 *Statement: 
 >I just upload assignment result by pic to GitHub to see the results.
 >There is absolutely no code.
-        https://github.com/shwang1013/target-offer/blob/master/TW_AssignmentResult.png
+View the results through a link：<br>
+https://github.com/shwang1013/target-offer/blob/master/TW_AssignmentResult.png
         
+
+### Verifying code
+All of the input and generate functions were packed. The graph will be generate by<br>
+>python TW_Assignment_WSH.py
